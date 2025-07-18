@@ -5,7 +5,7 @@ import { RiTimerLine } from "react-icons/ri";
 
 const Hero = () => {
     return (
-        <main className='mb-10 bg-gradient-to-b from-[#004733] to-[#007050]'>
+        <main className='bg-gradient-to-b from-[#004733] to-[#007050]'>
             <section className='h-screen w-full mt-10 md:mt-[68px] flex gap-8 flex-col justify-center items-center'>
 
                 {/* hero title */}
@@ -27,12 +27,12 @@ const Hero = () => {
                 {/* start approval button */}
                 <div className='text-center flex flex-col gap-4'>
 
-                    <button className='px-10 py-5 text-[#292b29] font-semibold bg-[#1EE07F] hover:text-white hover:bg-[#004733] hover:bg-opacity-90 rounded-4xl transition-all duration-300 cursor-pointer'>
+                    <button className='px-14 py-5 text-[#292b29] font-semibold bg-[#1EE07F] hover:text-white hover:bg-[#004733] hover:bg-opacity-90 rounded-4xl transition-all duration-300 cursor-pointer'>
                         Start my pre-approval
                     </button>
 
                     {/* title */}
-                    <p className='text-[12px] font-extralight text-[#DFE0DC] flex gap-1 justify-center items-center'>
+                    <p className='text-[12px] text-[#DFE0DC] flex gap-1 justify-center items-center'>
                         <span className='text-lg'>
                             <RiTimerLine />
                         </span>

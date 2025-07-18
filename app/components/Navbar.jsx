@@ -92,7 +92,7 @@ const Navbar = () => {
                 </button>
 
                 {/* continue button */}
-                <button className='px-[18px] py-[2px] md:px-[24px] md:py-[12px] text-[#292b29] bg-[#1EE07F] hover:text-white hover:bg-transparent rounded-3xl transition-all duration-300 cursor-pointer'>
+                <button className='px-[18px] py-[2px] font-semibold md:px-[24px] md:py-[12px] text-[#292b29] bg-[#1EE07F] hover:text-white hover:bg-transparent rounded-3xl transition-all duration-300 cursor-pointer'>
                     Continue
                 </button>
 
