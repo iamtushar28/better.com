@@ -97,7 +97,7 @@ const Navbar = () => {
                 </button>
 
                 <button
-                    className='text-2xl cursor-pointer'
+                    className='text-2xl cursor-pointer block md:hidden'
                     onClick={() => dispatch(openSidebar())}
                 >
                     <FiMenu />
