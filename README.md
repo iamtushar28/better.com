@@ -1,3 +1,14 @@
+# Better.com Replica – Assignment Project
+
+This project is a front-end replica of the [Better.com](https://better.com) website, created as part of an frontend assignment to demonstrate proficiency in web design, layout structuring, and responsive development.
+
+## 🚀 Features
+
+* Clean and modern UI inspired by Better.com
+* Responsive design for mobile and desktop views
+
+---
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

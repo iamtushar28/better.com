@@ -12,7 +12,7 @@ const QueriesSection = () => {
         <section className='p-4 md:p-10 pt-14 md:pt-0 w-full flex flex-col gap-8 md:gap-16'>
 
             <div className='flex flex-col gap-10 md:gap-0 md:flex-row md:justify-between md:items-end'>
-                
+
                 {/* title */}
                 <h2 className='text-5xl font-normal'>
                     Got questions? <br />
@@ -36,6 +36,7 @@ const QueriesSection = () => {
 
             </div>
 
+            {/* cards section */}
             <div>
 
                 <div className='w-full flex gap-5 flex-col md:flex-row justify-between'>
@@ -115,7 +116,7 @@ const QueriesSection = () => {
 
                         {/* title */}
                         <h4 className='text-2xl font-normal'>
-                          Insurance
+                            Insurance
                         </h4>
 
                         {/* next button */}

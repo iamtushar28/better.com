@@ -11,6 +11,7 @@ const Stories = () => {
     const [activePerson, setActivePerson] = useState('Paul');
     const [isPlaying, setIsPlaying] = useState(false);
 
+    // persons data
     const personData = {
         Paul: {
             image: StillquotePaul,
@@ -30,7 +31,7 @@ const Stories = () => {
     }
 
     const handlePlay = () => {
-        setIsPlaying(true);
+        setIsPlaying(true); //play video
     };
 
     const handleChangePerson = (name) => {
@@ -82,8 +83,8 @@ const Stories = () => {
                             key={name}
                             onClick={() => handleChangePerson(name)}
                             className={`px-[24px] py-[12px] font-semibold rounded-4xl transition-all duration-300 cursor-pointer ${activePerson === name
-                                    ? 'text-[#017848] ring-6 ring-[#017848]'
-                                    : 'hover:text-[#017848] border border-zinc-300 hover:border-[#017848] hover:ring-5 ring-[#017848]'
+                                ? 'text-[#017848] ring-6 ring-[#017848]'
+                                : 'hover:text-[#017848] border border-zinc-300 hover:border-[#017848] hover:ring-5 ring-[#017848]'
                                 }`}
                         >
                             {name}
