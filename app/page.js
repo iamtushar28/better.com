@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import Stories from "./components/Stories";
 import QueriesSection from "./components/QueriesSection";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -15,7 +16,8 @@ export default function Home() {
         <Sidebar />
         <Hero />
         <Stories />
-        {/* <QueriesSection/> */}
+        <QueriesSection />
+        <Footer />
       </Provider>
     </>
   );
